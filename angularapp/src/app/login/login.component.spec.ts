@@ -42,11 +42,11 @@ describe('LoginComponent', () => {
 
   });
 
-  fit('W4D1_LoginComponent', () => {
+  fit('should create the LoginComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  fit('W4D1_call login method on admin login', () => {
+  fit('should call login method on admin login', () => {
     spyOn(authService, 'login').and.returnValue(of({ role: 'ADMIN' }));
     const router = TestBed.inject(Router); // Inject Router
     spyOn(router, 'navigate'); // Spy on router's navigate method

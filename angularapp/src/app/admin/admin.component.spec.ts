@@ -39,7 +39,7 @@ describe('AdminComponent', () => {
 
   });
 
-  fit('should create admin Component', () => {
+  fit('should create', () => {
     expect(component).toBeTruthy();
   });
 
