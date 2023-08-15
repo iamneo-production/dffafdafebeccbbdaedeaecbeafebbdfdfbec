@@ -9,7 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { AdminComponent } from './admin/admin.component';
 import { OrganizerComponent } from './organizer/organizer.component';
 import { LoginComponent } from './login/login.component';
-import { ErrorComponent } from './error/error.component';
+// import { ErrorComponent } from './error/error.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TeamComponent } from './team/team.component';
 import { PlayerComponent } from './player/player.component';
@@ -22,7 +22,7 @@ import { RegistrationComponent } from './registration/registration.component';
     AdminComponent,
     OrganizerComponent,
     LoginComponent,
-    ErrorComponent,
+    // ErrorComponent,
     NavbarComponent,
     TeamComponent,
     PlayerComponent,

@@ -1,16 +1,19 @@
-// import { TestBed } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 
-// import { OrganizerService } from './organizer.service';
+import { OrganizerService } from './organizer.service';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
-// describe('OrganizerService', () => {
-//   let service: OrganizerService;
+describe('OrganizerService', () => {
+  let service: OrganizerService;
 
-//   beforeEach(() => {
-//     TestBed.configureTestingModule({});
-//     service = TestBed.inject(OrganizerService);
-//   });
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule]
+    });
+    service = TestBed.inject(OrganizerService);
+  });
 
-//   it('should be created', () => {
-//     expect(service).toBeTruthy();
-//   });
-// });
+  fit('should create organizerServices', () => {
+    expect(service).toBeTruthy();
+  });
+});
